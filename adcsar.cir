@@ -1,0 +1,44 @@
+* C:\Users\kesav\eSim-Workspace\adcsar\adcsar.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/09/20 11:43:28
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M1  in Net-_M1-Pad2_ Net-_M1-Pad3_ Net-_M1-Pad3_ eSim_MOS_N		
+M2  Net-_M1-Pad3_ Net-_M2-Pad2_ in Net-_M1-Pad3_ eSim_MOS_P		
+v2  Net-_M1-Pad2_ GND pulse		
+v1  in GND sine		
+X1  Net-_M1-Pad2_ Net-_M2-Pad2_ INVCMOS		
+M6  VCC Net-_M3-Pad1_ Net-_M6-Pad3_ VCC eSim_MOS_P		
+M9  VCC Net-_M6-Pad3_ Net-_M8-Pad1_ VCC eSim_MOS_P		
+M3  Net-_M3-Pad1_ Net-_M1-Pad3_ Net-_M3-Pad3_ Net-_M3-Pad3_ eSim_MOS_N		
+M7  Net-_M3-Pad3_ Net-_M14-Pad3_ Net-_M6-Pad3_ Net-_M6-Pad3_ eSim_MOS_N		
+M8  Net-_M8-Pad1_ Net-_M6-Pad3_ GND GND eSim_MOS_N		
+M5  ? Net-_M1-Pad2_ GND GND eSim_MOS_N		
+M4  Net-_M3-Pad1_ Net-_M3-Pad1_ VCC Net-_M3-Pad1_ eSim_MOS_P		
+U2  GND Net-_U10-Pad2_ Net-_U10-Pad4_ ? Net-_U2-Pad5_ ? d_dff		
+U4  Net-_U2-Pad5_ Net-_U10-Pad2_ ? ? Net-_U4-Pad5_ ? d_dff		
+U7  Net-_U4-Pad5_ Net-_U10-Pad2_ ? ? Net-_U10-Pad1_ ? d_dff		
+U3  Net-_M8-Pad1_ d2 Net-_U2-Pad5_ ? d3 ? d_dff		
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ ? Net-_U10-Pad4_ Net-_U10-Pad5_ ? d_dff		
+U13  Net-_U10-Pad5_ Net-_U10-Pad2_ ? Net-_U10-Pad4_ Net-_U13-Pad5_ ? d_dff		
+U6  Net-_M8-Pad1_ d1 Net-_U4-Pad5_ ? d2 ? d_dff		
+U9  Net-_M8-Pad1_ d0 Net-_U10-Pad1_ ? d1 ? d_dff		
+U12  Net-_M8-Pad1_ Net-_U12-Pad2_ Net-_U10-Pad5_ ? d0 ? d_dff		
+U15  Net-_U15-Pad1_ Net-_U15-Pad1_ Net-_U13-Pad5_ ? Net-_U12-Pad2_ ? d_dff		
+v3  Net-_U10-Pad2_ GND pulse		
+U14  d0 plot_v1		
+U11  d1 plot_v1		
+U8  d2 plot_v1		
+U5  d3 plot_v1		
+U1  in plot_v1		
+M12  Net-_M10-Pad1_ Net-_M10-Pad1_ VCC VCC eSim_MOS_P		
+M14  VCC Net-_M10-Pad1_ Net-_M14-Pad3_ Net-_M14-Pad3_ eSim_MOS_P		
+M10  Net-_M10-Pad1_ d3 GND GND eSim_MOS_N		
+M11  ? d2 GND GND eSim_MOS_N		
+M13  ? d1 GND GND eSim_MOS_N		
+M15  Net-_M10-Pad1_ d0 GND GND eSim_MOS_N		
+
+.end

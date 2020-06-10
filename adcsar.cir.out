@@ -1,0 +1,83 @@
+* c:\users\kesav\esim-workspace\adcsar\adcsar.cir
+
+.include INVCMOS.sub
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m1 in net-_m1-pad2_ net-_m1-pad3_ net-_m1-pad3_ CMOSN W=100u L=100u M=1
+m2 net-_m1-pad3_ net-_m2-pad2_ in net-_m1-pad3_ CMOSP W=100u L=100u M=1
+v2  net-_m1-pad2_ gnd pulse(-2.5 2.5 0.01 0.001 0.009 0.05 0.1)
+v1  in gnd sine(0 5 50 0 0)
+x1 net-_m1-pad2_ net-_m2-pad2_ INVCMOS
+m6 vcc net-_m3-pad1_ net-_m6-pad3_ vcc CMOSP W=100u L=100u M=1
+m9 vcc net-_m6-pad3_ net-_m8-pad1_ vcc CMOSP W=100u L=100u M=1
+m3 net-_m3-pad1_ net-_m1-pad3_ net-_m3-pad3_ net-_m3-pad3_ CMOSN W=100u L=100u M=1
+m7 net-_m3-pad3_ net-_m14-pad3_ net-_m6-pad3_ net-_m6-pad3_ CMOSN W=100u L=100u M=1
+m8 net-_m8-pad1_ net-_m6-pad3_ gnd gnd CMOSN W=100u L=100u M=1
+m5 ? net-_m1-pad2_ gnd gnd CMOSN W=100u L=100u M=1
+m4 net-_m3-pad1_ net-_m3-pad1_ vcc net-_m3-pad1_ CMOSP W=100u L=100u M=1
+* u2  gnd net-_u10-pad2_ net-_u10-pad4_ ? net-_u2-pad5_ ? d_dff
+* u4  net-_u2-pad5_ net-_u10-pad2_ ? ? net-_u4-pad5_ ? d_dff
+* u7  net-_u4-pad5_ net-_u10-pad2_ ? ? net-_u10-pad1_ ? d_dff
+* u3  net-_m8-pad1_ d2 net-_u2-pad5_ ? d3 ? d_dff
+* u10  net-_u10-pad1_ net-_u10-pad2_ ? net-_u10-pad4_ net-_u10-pad5_ ? d_dff
+* u13  net-_u10-pad5_ net-_u10-pad2_ ? net-_u10-pad4_ net-_u13-pad5_ ? d_dff
+* u6  net-_m8-pad1_ d1 net-_u4-pad5_ ? d2 ? d_dff
+* u9  net-_m8-pad1_ d0 net-_u10-pad1_ ? d1 ? d_dff
+* u12  net-_m8-pad1_ net-_u12-pad2_ net-_u10-pad5_ ? d0 ? d_dff
+* u15  net-_u15-pad1_ net-_u15-pad1_ net-_u13-pad5_ ? net-_u12-pad2_ ? d_dff
+v3  net-_u10-pad2_ gnd pulse(0 1 0.01 0.001 0.009 0.05 0.01)
+* u14  d0 plot_v1
+* u11  d1 plot_v1
+* u8  d2 plot_v1
+* u5  d3 plot_v1
+* u1  in plot_v1
+m12 net-_m10-pad1_ net-_m10-pad1_ vcc vcc CMOSP W=100u L=100u M=1
+m14 vcc net-_m10-pad1_ net-_m14-pad3_ net-_m14-pad3_ CMOSP W=100u L=100u M=1
+m10 net-_m10-pad1_ d3 gnd gnd CMOSN W=100u L=100u M=1
+m11 ? d2 gnd gnd CMOSN W=100u L=100u M=1
+m13 ? d1 gnd gnd CMOSN W=100u L=100u M=1
+m15 net-_m10-pad1_ d0 gnd gnd CMOSN W=100u L=100u M=1
+a1 gnd net-_u10-pad2_ net-_u10-pad4_ ? net-_u2-pad5_ ? u2
+a2 net-_u2-pad5_ net-_u10-pad2_ ? ? net-_u4-pad5_ ? u4
+a3 net-_u4-pad5_ net-_u10-pad2_ ? ? net-_u10-pad1_ ? u7
+a4 net-_m8-pad1_ d2 net-_u2-pad5_ ? d3 ? u3
+a5 net-_u10-pad1_ net-_u10-pad2_ ? net-_u10-pad4_ net-_u10-pad5_ ? u10
+a6 net-_u10-pad5_ net-_u10-pad2_ ? net-_u10-pad4_ net-_u13-pad5_ ? u13
+a7 net-_m8-pad1_ d1 net-_u4-pad5_ ? d2 ? u6
+a8 net-_m8-pad1_ d0 net-_u10-pad1_ ? d1 ? u9
+a9 net-_m8-pad1_ net-_u12-pad2_ net-_u10-pad5_ ? d0 ? u12
+a10 net-_u15-pad1_ net-_u15-pad1_ net-_u13-pad5_ ? net-_u12-pad2_ ? u15
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u2 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u4 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u7 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u3 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u10 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u13 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u6 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u9 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u12 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+* Schematic Name:                             d_dff, NgSpice Name: d_dff
+.model u15 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.tran 10e-00 100e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(d0)
+plot v(d1)
+plot v(d2)
+plot v(d3)
+plot v(in)
+.endc
+.end
