@@ -1,13 +1,13 @@
 # 10 BIT ADC
-Main idea of this project is,the device only manage barrier between analog and digital world we need device called ANALOG TO DIGITAL CONVERTOR.with the 10 bit adc with input voltage 3.3v,output digital voltage 1.8v  &1 off chip external voltage reference using osu 018 library,studied here.
+the Main idea of this project is that device only manage barrier between analog and digital world. so,we need a device called ANALOG TO DIGITAL CONVERTOR. the 10 bit adc with input voltage of 3.3v,output digital voltage of 1.8v  and one off chip external voltage reference using @osu180nm library,studied here.
 # Installing ESim  in ubuntu os: 
-*  For download esim installer for ubuntu from http://esim.fossee.in/downloads to our directory files.
-* for install esim software we have to run following commands
+*  To download esim  for ubuntu os http://esim.fossee.in/downloads to our directory files.
+* to install esim software we have to run the following commands
   * $ cd esim-2.0
   * $ chmod +x install-esim.sh
   * ./install-esim.sh --install
 # installing Esim in windows os:
-*  for download the esim-2.0 installer.exe from  http://esim.fossee.in/downloads.
+*  To download the esim-2.0 installer.exe from  http://esim.fossee.in/downloads.
 * after that double click on .exe file  for start installation  click on yes button.
 *  generally it installed in c drive,in that automatically generated fossie folder.
 * esim icon created on your desktop by double clicking on it opens esim.
