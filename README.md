@@ -1,7 +1,17 @@
 # 10 BIT ADC
 Main idea of this project is,the device only manage barrier between analog and digital world we need device called ANALOG TO DIGITAL CONVERTOR.with the 10 bit adc with input voltage 3.3v,output digital voltage 1.8v  &1 off chip external voltage reference using osu 018 library,studied here.
-# set up informatiom
-* firstly we have Esim software in windows or ubuntu for windows fot that link https://esim.fossee.in/home
+# Installing ESim  in ubuntu os: 
+*  For download esim installer for ubuntu from http://esim.fossee.in/downloads to our directory files.
+* for install esim software we have to run following commands
+  * $ cd esim-2.0
+  * $ chmod +x install-esim.sh
+  * ./install-esim.sh --install
+# installing Esim in windows os:
+*  for download the esim-2.0 installer.exe from  http://esim.fossee.in/downloads.
+* after that double click on .exe file  for start installation  click on yes button.
+*  generally it installed in c drive,in that automatically generated fossie folder.
+* esim icon created on your desktop by double clicking on it opens esim.
+# setup information:
 * create a new project:the new project is created when we click on new project icon.
 * creating schematic: to create a create new schematic we find icon has open schematic ,click on it.
 * now we have place the tools we required .
@@ -13,10 +23,10 @@ Main idea of this project is,the device only manage barrier between analog and d
 * after that we have to convert kicad to ngspice by clicking on it .
 * we find different analysis,device modeling,subcircuits,ngspice model.
 * after all these parameters we given then convert it.
-* for ngspice netlist in the form of .cir.out.
-* for simulation we have select the simulator. 
-* then simulator runs we get waveforms.
-* in that we find two plotings 1.normal 2.python ploting
+for ngspice netlist in the form of .cir.out.
+* for simulation we have select the simulator, 
+then simulator runs we get waveforms.
+* in that we find two plotings 1.normal 2.python ploting observe the waveforms in any of the plotings.
 
 # contact information
  * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
