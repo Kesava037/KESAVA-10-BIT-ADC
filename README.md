@@ -19,7 +19,7 @@ Main idea of this project is,the device only manage barrier between analog and d
 * in that we find two plotings 1.normal 2.python ploting
 
 # contact information
- * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE IF ENGINEERING kesavakumarnaralasetty@gmail.com
+ * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
 * KUNAL GHOSH  di VSD corp.Pvt ltd kunalpghosh@gmail.com
 * PHILIPP GUHRING software architect at libresilicon association pg@futureware.at
 * Dr.gaurav trivedi co-principal investigator,EICT academy,and associative professor ,eee dept.IIT GUWAHATI trivedi@iitg.ac.in 
