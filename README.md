@@ -10,14 +10,15 @@ the Main idea of this project is that device only manage barrier between analog 
 *  To download the esim-2.0 installer.exe from  http://esim.fossee.in/downloads.
 * after that double click on .exe file  for start installation  click on yes button.
 *  generally it installed in c drive,in that automatically generated fossie folder.
-* esim icon created on your desktop by double clicking on it opens esim.
-# setup information:
+* esim icon created on your desktop by double clicking on it opens.
+# getting started with esim:
 * create a new project:the new project is created when we click on new project icon.
-* creating schematic: to create a create new schematic we find icon has open schematic ,click on it.
+* creating schematic: to  create new schematic we find icon as open schematic ,click on it.
 * now we have place the tools we required .
-* for finding the components we have click in ur keyboard A button to select components .
-* now save your schematic by ctrl+s.
-* after that we have perform a erc rule(electric rule check)'
+* for finding the components we have to click in your keyboard A button to select components .
+* then save your schematic by ctrl+s.
+* after save the schematic 
+* after that we have to perform a erc rule(electric rule check) 
 * here if we find errors by click run erc file and debug by seeing the errors.
 * now we have to generate netlist file for kicad in .cir file.
 * after that we have to convert kicad to ngspice by clicking on it .
