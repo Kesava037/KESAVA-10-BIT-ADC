@@ -31,6 +31,7 @@ T*he Main idea of this project is that device only manage barrier between analog
 * We find different analysis,device modeling,subcircuits,ngspice model.
 * After all these parameters will be given to convert it. for ngspice netlist in the form of .cir.out..
 * After we have to click on simulation icon.
+* 
 * For simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
  * In that we find two plotings 1.normal 2.python ploting to observe the waveforms in all of the given subplots of the given input/output plot..
 
