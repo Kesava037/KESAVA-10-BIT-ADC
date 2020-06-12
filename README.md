@@ -21,7 +21,8 @@ the Main idea of this project is that device only manage barrier between analog 
 * for finding the components we have to click in your keyboard A button to select components .
 * then save your schematic by ctrl+s.
 * after save the schematic 
-* after that we have to perform a erc rule(electric rule check) 
+* after that we have to perform a erc rule(electric rule check).
+* ![erc](https://user-images.githubusercontent.com/66682399/84472620-2515fa00-aca5-11ea-91b9-076dd6736fcf.PNG)
 * here if we find errors by click run erc file and debug by seeing the errors.
 * now we have to generate netlist file for kicad in .cir file.
 * after that we have to convert kicad to ngspice by clicking on it .
