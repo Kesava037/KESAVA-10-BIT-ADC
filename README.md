@@ -25,6 +25,8 @@ the Main idea of this project is that device only manage barrier between analog 
 * ![erc](https://user-images.githubusercontent.com/66682399/84472620-2515fa00-aca5-11ea-91b9-076dd6736fcf.PNG)
 * here if we find errors by click run erc file and debug by seeing the errors.
 * now we have to generate netlist file for kicad in .cir file.
+* ![kicad netlist](https://user-images.githubusercontent.com/66682399/84472823-935abc80-aca5-11ea-82cf-8ddb18f8ca67.PNG)
+
 * after that we have to convert kicad to ngspice by clicking on it .
 * we find different analysis,device modeling,subcircuits,ngspice model.
 * after all these parameters we given then convert it.
