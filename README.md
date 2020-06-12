@@ -35,6 +35,7 @@ The Main idea of this project is that device only manage barrier between analog 
 * For simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
  * In that we find two plotings 1.normal 2.python ploting to observe the waveforms in all of the given subplots of the given input/output plot..
  ![Capture](https://user-images.githubusercontent.com/66682399/84502736-85715f80-acd6-11ea-8932-2f99020d4a88.PNG)
+ ![input](https://user-images.githubusercontent.com/66682399/84502772-95893f00-acd6-11ea-9e3e-4a2a8bc297bf.PNG)
 
 # contact information
  * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
