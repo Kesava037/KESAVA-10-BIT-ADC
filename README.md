@@ -13,7 +13,7 @@ the Main idea of this project is that device only manage barrier between analog 
 * esim icon created on your desktop by double clicking on it opens.
 # getting started with esim:
 * create a new project:the new project is created when we click on new project icon.
- ![](images/screenshot.png)
+![creating new project](https://user-images.githubusercontent.com/66682399/84471796-b5533f80-aca3-11ea-8e34-e352c47ef2e3.PNG)
 * creating schematic: to  create new schematic we find icon as open schematic ,click on it.
 * now we have place the tools we required .
 * for finding the components we have to click in your keyboard A button to select components .
