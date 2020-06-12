@@ -27,7 +27,7 @@ the Main idea of this project is that device only manage barrier between analog 
 * now we have to generate netlist file for kicad in .cir file.
 * ![kicad netlist](https://user-images.githubusercontent.com/66682399/84472823-935abc80-aca5-11ea-82cf-8ddb18f8ca67.PNG)
 * after that we have to convert kicad to ngspice by clicking on it.
-* 
+* ![kicadto ng spice](https://user-images.githubusercontent.com/66682399/84473242-54793680-aca6-11ea-8b91-c59674030a38.PNG)
 * we find different analysis,device modeling,subcircuits,ngspice model.
 * after all these parameters will be given to convert it. for ngspice netlist in the form of .cir.out.
 * for simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
