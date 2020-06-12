@@ -26,14 +26,12 @@ the Main idea of this project is that device only manage barrier between analog 
 * here if we find errors by click run erc file and debug by seeing the errors.
 * now we have to generate netlist file for kicad in .cir file.
 * ![kicad netlist](https://user-images.githubusercontent.com/66682399/84472823-935abc80-aca5-11ea-82cf-8ddb18f8ca67.PNG)
-
-* after that we have to convert kicad to ngspice by clicking on it .
+* after that we have to convert kicad to ngspice by clicking on it.
+* 
 * we find different analysis,device modeling,subcircuits,ngspice model.
-* after all these parameters we given then convert it.
-for ngspice netlist in the form of .cir.out.
-* for simulation we have select the simulator, 
-then simulator runs we get waveforms.
-* in that we find two plotings 1.normal 2.python ploting observe the waveforms in any of the plotings.
+* after all these parameters will be given to convert it. for ngspice netlist in the form of .cir.out.
+* for simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
+in that we find two plotings 1.normal 2.python ploting to observe the waveforms in all of the given subplots of the given input/output plot..
 
 # contact information
  * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
