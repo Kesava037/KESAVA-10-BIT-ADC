@@ -1,0 +1,47 @@
+ERC report (06/18/20 19:41:56, Encoding UTF8 )
+
+***** Sheet /
+ErrType(8): Global label not connected to any other global label
+    @ (186.69 mm,114.30 mm): Global label d3 is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @ (322.58 mm,114.30 mm): Global label d0 is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @ (227.33 mm,116.84 mm): Global label d2 is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @ (271.78 mm,115.57 mm): Global label d1 is not connected to any other global label.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (327.66 mm,43.18 mm): Pin 6 (Output) of component U13 is unconnected.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (313.69 mm,50.80 mm): Pin 4 (Input) of component U13 is not driven (Net 17).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (287.02 mm,41.91 mm): Pin 6 (Output) of component U10 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (189.23 mm,81.28 mm): Pin 6 (Output) of component U3 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (248.92 mm,41.91 mm): Pin 6 (Output) of component U7 is unconnected.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (313.69 mm,19.05 mm): Pin 3 (Input) of component U13 is not driven (Net 21).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (209.55 mm,41.91 mm): Pin 6 (Output) of component U4 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (367.03 mm,82.55 mm): Pin 6 (Output) of component U15 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (318.77 mm,82.55 mm): Pin 6 (Output) of component U12 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (271.78 mm,81.28 mm): Pin 6 (Output) of component U9 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (231.14 mm,81.28 mm): Pin 6 (Output) of component U6 is unconnected.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (217.17 mm,88.90 mm): Pin 4 (Input) of component U6 is not driven (Net 30).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (168.91 mm,41.91 mm): Pin 6 (Output) of component U2 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (154.94 mm,49.53 mm): Pin 4 (Input) of component U2 is unconnected.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (90.17 mm,81.28 mm): Pin 1 (Power input) of component #PWR09 is not driven (Net 35).
+ErrType(8): Global label not connected to any other global label
+    @ (49.53 mm,35.56 mm): Global label out is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @ (15.24 mm,21.59 mm): Global label in is not connected to any other global label.
+
+ ** ERC messages: 21  Errors 0  Warnings 21

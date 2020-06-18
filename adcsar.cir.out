@@ -1,8 +1,8 @@
 * c:\users\kesav\esim-workspace\adcsar\adcsar.cir
 
 .include INVCMOS.sub
-.include PMOS-180nm.lib
 .include NMOS-180nm.lib
+.include PMOS-180nm.lib
 m1 in net-_m1-pad2_ net-_m1-pad3_ net-_m1-pad3_ CMOSN W=100u L=100u M=1
 m2 net-_m1-pad3_ net-_m2-pad2_ in net-_m1-pad3_ CMOSP W=100u L=100u M=1
 v2  net-_m1-pad2_ gnd pulse(-2.5 2.5 0.01 0.001 0.009 0.05 0.1)
@@ -48,25 +48,25 @@ a8 net-_m8-pad1_ d0 net-_u10-pad1_ ? d1 ? u9
 a9 net-_m8-pad1_ net-_u12-pad2_ net-_u10-pad5_ ? d0 ? u12
 a10 net-_u15-pad1_ net-_u15-pad1_ net-_u13-pad5_ ? net-_u12-pad2_ ? u15
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u2 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u2 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u4 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u4 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u7 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u7 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u3 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u3 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u10 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u10 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u13 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u13 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u6 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u6 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u9 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u9 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u12 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u12 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 * Schematic Name:                             d_dff, NgSpice Name: d_dff
-.model u15 d_dff(clk_load=1.0e-12 clk_delay=1.0e-9 ic=0 data_load=1.0e-12 set_delay=1.0e-9 set_load=1.0e-12 rise_delay=1.0e-9 reset_delay=1.0 fall_delay=1.0e-9 reset_load=1.0e-12 ) 
+.model u15 d_dff(rise_delay=1.0e-9 clk_load=1.0e-12 clk_delay=1.0e-9 reset_delay=1.0 ic=0 set_load=1.0e-12 data_load=1.0e-12 reset_load=1.0e-12 fall_delay=1.0e-9 set_delay=1.0e-9 ) 
 .tran 10e-00 100e-00 0e-00
 
 * Control Statements 
