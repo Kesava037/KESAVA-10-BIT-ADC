@@ -1,6 +1,6 @@
 * C:\Users\kesav\eSim-Workspace\finaltry\finaltry.cir
 
-* EESchema Netlist Version 1.1 (Spice format) creation date: 06/21/20 18:11:30
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/22/20 10:36:15
 
 * To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
 * To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
@@ -12,42 +12,8 @@ X1  Net-_M1-Pad2_ Net-_M2-Pad2_ INVCMOS
 v1  input GND sine		
 v2  Net-_M1-Pad2_ GND pulse		
 C1  sample GND .1u		
-X2  ? Net-_R1-Pad2_ out1 Net-_X2-Pad4_ ? comp Net-_X2-Pad7_ ? lm_741		
-v4  Net-_X2-Pad7_ GND 5		
-v5  GND Net-_X2-Pad4_ 5		
-R2  comp GND 1k		
-R1  sample Net-_R1-Pad2_ 1k		
 U2  sample plot_v1		
 U1  input plot_v1		
-U3  comp plot_v1		
-R11  Net-_R10-Pad1_ Net-_R11-Pad2_ 2k		
-R7  Net-_R5-Pad1_ Net-_R7-Pad2_ 1k		
-R9  Net-_R7-Pad2_ Net-_R10-Pad1_ 1k		
-R10  Net-_R10-Pad1_ d3 2k		
-R8  Net-_R7-Pad2_ d2 2k		
-R6  Net-_R5-Pad1_ d1 2k		
-R4  Net-_R3-Pad1_ d0 2k		
-R5  Net-_R5-Pad1_ Net-_R3-Pad1_ 1k		
-R3  Net-_R3-Pad1_ GND 2k		
-R13  out1 GND 10k		
-X3  Net-_X3-Pad1_ Net-_R11-Pad2_ GND ? Net-_X3-Pad1_ out1 Net-_X2-Pad7_ ? lm_741		
-R12  Net-_R11-Pad2_ out1 3k		
-U4  out1 plot_v1		
-U8  d3 plot_v1		
-U7  d2 plot_v1		
-U6  d1 plot_v1		
-U5  d0 plot_v1		
-v3  Net-_U9-Pad1_ GND DC		
-U9  Net-_U9-Pad1_ GND Net-_M1-Pad2_ comp Net-_U11-Pad3_ Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U12-Pad1_ adc_bridge_4		
-U12  Net-_U12-Pad1_ d2 Net-_U11-Pad5_ GND d3 ? d_dff		
-U14  Net-_U12-Pad1_ d1 Net-_U13-Pad5_ GND d2 ? d_dff		
-U16  Net-_U12-Pad1_ d0 Net-_U15-Pad5_ GND d1 ? d_dff		
-U18  Net-_U12-Pad1_ Net-_U18-Pad2_ Net-_U17-Pad5_ GND d0 ? d_dff		
-U20  Net-_U11-Pad1_ Net-_U11-Pad1_ Net-_U19-Pad5_ GND Net-_U18-Pad2_ ? d_dff		
-U19  Net-_U17-Pad5_ Net-_U11-Pad2_ GND Net-_U11-Pad3_ Net-_U19-Pad5_ ? d_dff		
-U17  Net-_U15-Pad5_ Net-_U11-Pad2_ GND Net-_U11-Pad3_ Net-_U17-Pad5_ ? d_dff		
-U15  Net-_U13-Pad5_ Net-_U11-Pad2_ GND Net-_U11-Pad3_ Net-_U15-Pad5_ ? d_dff		
-U13  Net-_U11-Pad5_ Net-_U11-Pad2_ GND Net-_U11-Pad3_ Net-_U13-Pad5_ ? d_dff		
-U11  Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ GND Net-_U11-Pad5_ ? d_dff		
+R3  ? GND 2k		
 
 .end
