@@ -191,17 +191,6 @@ Connection ~ 3300 3000
 Connection ~ 3250 3000
 Connection ~ 3400 3000
 $Comp
-L DC v2
-U 1 1 5EEC2AC9
-P 800 2750
-F 0 "v2" H 600 2850 60  0000 C CNN
-F 1 "DC" H 600 2700 60  0000 C CNN
-F 2 "R1" H 500 2750 60  0000 C CNN
-F 3 "" H 800 2750 60  0000 C CNN
-	1    800  2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L pulse v1
 U 1 1 5EEC2BB8
 P 200 2450
@@ -230,8 +219,6 @@ F 3 "" H 4500 4750 60  0000 C CNN
 	1    4500 4750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4950 4700 5400 4700
 Wire Wire Line
 	4950 4800 5000 4800
 Wire Wire Line
@@ -277,11 +264,11 @@ Wire Wire Line
 Wire Wire Line
 	3950 4800 3950 5450
 Text GLabel 2950 4750 0    60   Input ~ 0
-d0
+d1
 Wire Wire Line
 	3200 4700 3950 4700
 Text GLabel 3800 4850 0    60   Input ~ 0
-d1
+d0
 Wire Wire Line
 	3800 4850 3950 4850
 Connection ~ 3950 4850
@@ -488,17 +475,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 2450 2050 2450
 $Comp
-L DC v3
-U 1 1 5EEF74D9
-P 300 1500
-F 0 "v3" H 100 1600 60  0000 C CNN
-F 1 "DC" H 100 1450 60  0000 C CNN
-F 2 "R1" H 0   1500 60  0000 C CNN
-F 3 "" H 300 1500 60  0000 C CNN
-	1    300  1500
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR05
 U 1 1 5EEF75D6
 P -300 1750
@@ -514,19 +490,6 @@ Wire Wire Line
 Wire Wire Line
 	-300 1500 -150 1500
 $Comp
-L plot_v1 U15
-U 1 1 5EEF7834
-P 2900 1200
-F 0 "U15" H 2900 1700 60  0000 C CNN
-F 1 "plot_v1" H 3100 1550 60  0000 C CNN
-F 2 "" H 2900 1200 60  0000 C CNN
-F 3 "" H 2900 1200 60  0000 C CNN
-	1    2900 1200
-	1    0    0    -1  
-$EndComp
-Text GLabel 2650 1050 0    60   Input ~ 0
-init
-$Comp
 L plot_v1 U17
 U 1 1 5EEF7CC2
 P 750 1300
@@ -540,7 +503,7 @@ $EndComp
 Wire Wire Line
 	750  1100 750  1500
 Text GLabel 200  1050 0    60   Input ~ 0
-nn
+rst
 Wire Wire Line
 	200  1050 700  1050
 Wire Wire Line
@@ -564,53 +527,18 @@ Wire Wire Line
 Wire Wire Line
 	1000 1500 1000 1450
 Wire Wire Line
-	2150 1450 2200 1450
+	2200 1450 2150 1450
 Wire Wire Line
-	2200 1450 2200 1150
+	2200 1150 2200 1450
 Connection ~ 3000 1150
-Wire Wire Line
-	2900 1000 2900 1150
 Connection ~ 2900 1150
-Wire Wire Line
-	2650 1050 2800 1050
-Wire Wire Line
-	2800 1050 2800 1150
 Connection ~ 2800 1150
-$Comp
-L plot_v1 U19
-U 1 1 5EF18DE1
-P 5150 4850
-F 0 "U19" H 5150 5350 60  0000 C CNN
-F 1 "plot_v1" H 5350 5200 60  0000 C CNN
-F 2 "" H 5150 4850 60  0000 C CNN
-F 3 "" H 5150 4850 60  0000 C CNN
-	1    5150 4850
-	1    0    0    -1  
-$EndComp
-Text GLabel 5400 4700 2    60   Input ~ 0
-pp
 Wire Wire Line
 	5150 4650 5150 4700
 Connection ~ 5150 4700
-$Comp
-L plot_v1 U18
-U 1 1 5EF19013
-P 2450 1600
-F 0 "U18" H 2450 2100 60  0000 C CNN
-F 1 "plot_v1" H 2650 1950 60  0000 C CNN
-F 2 "" H 2450 1600 60  0000 C CNN
-F 3 "" H 2450 1600 60  0000 C CNN
-	1    2450 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 1400 2300 1400
 Connection ~ 2300 1400
-Text GLabel 2200 1300 0    60   Input ~ 0
-din
-Wire Wire Line
-	2200 1300 2300 1300
-Connection ~ 2300 1300
 Connection ~ 2200 1300
 $Comp
 L GNDD #PWR06
@@ -625,4 +553,44 @@ F 3 "" H 1000 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 1150 1000 1150
+$Comp
+L pulse v2
+U 1 1 5EF1E80D
+P 800 2750
+F 0 "v2" H 600 2850 60  0000 C CNN
+F 1 "pulse" H 600 2700 60  0000 C CNN
+F 2 "R1" H 500 2750 60  0000 C CNN
+F 3 "" H 800 2750 60  0000 C CNN
+	1    800  2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pulse v3
+U 1 1 5EF1E944
+P 300 1500
+F 0 "v3" H 100 1600 60  0000 C CNN
+F 1 "pulse" H 100 1450 60  0000 C CNN
+F 2 "R1" H 0   1500 60  0000 C CNN
+F 3 "" H 300 1500 60  0000 C CNN
+	1    300  1500
+	0    1    1    0   
+$EndComp
+$Comp
+L plot_v1 U15
+U 1 1 5EF1EC6C
+P 2600 3200
+F 0 "U15" H 2600 3700 60  0000 C CNN
+F 1 "plot_v1" H 2800 3550 60  0000 C CNN
+F 2 "" H 2600 3200 60  0000 C CNN
+F 3 "" H 2600 3200 60  0000 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 3000
+Text GLabel 2300 3300 0    60   Input ~ 0
+comparator
+Wire Wire Line
+	2300 3300 2600 3300
+Wire Wire Line
+	2600 3300 2600 3000
 $EndSCHEMATC

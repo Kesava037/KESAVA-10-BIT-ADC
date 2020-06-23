@@ -1,32 +1,32 @@
 * C:\Users\kesav\eSim-Workspace\dff\dff.cir
 
-* EESchema Netlist Version 1.1 (Spice format) creation date: 06/21/20 20:12:10
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/23/20 17:25:06
 
 * To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
 * To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
 
 * Sheet Name: /
-U3  Net-_U12-Pad2_ clk init Net-_U10-Pad3_ Net-_U3-Pad5_ ? d_dff		
-U8  Net-_U3-Pad5_ clk Net-_U10-Pad3_ init Net-_U10-Pad1_ ? d_dff		
-U10  Net-_U10-Pad1_ clk Net-_U10-Pad3_ init Net-_U10-Pad5_ ? d_dff		
-U6  Net-_U1-Pad2_ Net-_U6-Pad2_ Net-_U3-Pad5_ ? Net-_U6-Pad5_ ? d_dff		
-U9  Net-_U1-Pad2_ Net-_U11-Pad5_ Net-_U10-Pad1_ Net-_U11-Pad4_ Net-_U6-Pad2_ ? d_dff		
+U3  Net-_U12-Pad2_ clk Net-_U10-Pad4_ Net-_U10-Pad3_ Net-_U3-Pad5_ ? d_dff		
+U8  Net-_U3-Pad5_ clk Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad1_ ? d_dff		
+U10  Net-_U10-Pad1_ clk Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ ? d_dff		
+U6  comparator Net-_U6-Pad2_ Net-_U3-Pad5_ ? d1 ? d_dff		
+U9  comparator Net-_U11-Pad5_ Net-_U10-Pad1_ Net-_U11-Pad4_ Net-_U6-Pad2_ ? d_dff		
 U11  Net-_U11-Pad1_ ? Net-_U10-Pad5_ Net-_U11-Pad4_ Net-_U11-Pad5_ ? d_dff		
-v2  Net-_U1-Pad1_ GND DC		
 v1  Net-_U13-Pad1_ GND pulse		
-U7  Net-_U6-Pad2_ Net-_U6-Pad5_ d1 d0 dac_bridge_2		
+U7  Net-_U6-Pad2_ ? d0 Net-_R1-Pad1_ dac_bridge_2		
 U2  clk plot_v1		
-U5  d0 plot_v1		
-U4  d1 plot_v1		
-U12  GND Net-_U12-Pad2_ adc_bridge_1		
+U4  d0 plot_v1		
+U12  GNDD Net-_U12-Pad2_ adc_bridge_1		
 U16  GND Net-_U11-Pad1_ adc_bridge_1		
-R1  d0 GND 1k		
-R2  d1 GND 1k		
+R1  Net-_R1-Pad1_ GND 1k		
+R2  d0 GND 1k		
 U13  Net-_U13-Pad1_ clk adc_bridge_1		
-U1  Net-_U1-Pad1_ Net-_U1-Pad2_ adc_bridge_1		
-v3  nn GND DC		
-U15  init plot_v1		
-U17  nn plot_v1		
-U14  nn init adc_bridge_1		
+U1  Net-_U1-Pad1_ comparator adc_bridge_1		
+U17  rst plot_v1		
+U14  rst Net-_U10-Pad4_ adc_bridge_1		
+v2  Net-_U1-Pad1_ GND pulse		
+v3  rst GND pulse		
+U15  comparator plot_v1		
+U18  d1 plot_v1		
 
 .end
