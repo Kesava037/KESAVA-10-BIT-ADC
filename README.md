@@ -39,6 +39,8 @@ The Main idea of this project is that device only manage barrier between analog 
  * for sample and hold output is plot v(sample).
  * for  comparator is plot i(ref) vs v(ref).
  * for sar registor is plot v(d0),plot v(d1)
+ * ![10 bit output](https://user-images.githubusercontent.com/66682399/85657624-e97d2600-b6cf-11ea-8c8e-6c522f788d0f.png)
+*  ![block diagram](https://user-images.githubusercontent.com/66682399/85657718-fef25000-b6cf-11ea-9d73-7cabac553314.png)
 
 # contact information
  * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
