@@ -50,6 +50,7 @@ The Main idea of this project is that device only manage barrier between analog 
  * to generate this sar register waveforms netlist file <dff.cir.out>
  * use this commands to get waveforms <plot v(clock)>,<plot v(rst)>,<plot v(comparator)>.
  * here we use a adc and dac bridges to match analog and digital signals of the circuit .
+ * to see the waveforms use this netlist adctodacbridge.cir.out
  * ![adctodac diagram](https://user-images.githubusercontent.com/66682399/85719638-3af7d600-b70d-11ea-8fa6-84d08f8ceadc.PNG)
  * ![adctodacbridge](https://user-images.githubusercontent.com/66682399/85719648-3cc19980-b70d-11ea-8a57-85714fbb8510.PNG)
  * sar register  outpt waveforms .
