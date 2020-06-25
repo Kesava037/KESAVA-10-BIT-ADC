@@ -35,12 +35,8 @@ The Main idea of this project is that device only manage barrier between analog 
 * For simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
  * In that we find two plotings 1.normal 2.python ploting to observe the waveforms in all of the given subplots of the given input/output plot..
  ![Capture](https://user-images.githubusercontent.com/66682399/84502736-85715f80-acd6-11ea-8932-2f99020d4a88.PNG)
- ![input](https://user-images.githubusercontent.com/66682399/84502772-95893f00-acd6-11ea-9e3e-4a2a8bc297bf.PNG)
- * for sample and hold output is plot v(sample).
-
- * for sar registor is plot v(d0),plot v(d1)
-
-![10 bit sar register](https://user-images.githubusercontent.com/66682399/85657677-f6017e80-b6cf-11ea-9572-f35664651f41.PNG)
+ * sample output with clock
+ ![10 bit sar register](https://user-images.githubusercontent.com/66682399/85657677-f6017e80-b6cf-11ea-9572-f35664651f41.PNG)
 * 10 bit sar register circuit diagram
 ![block diagram](https://user-images.githubusercontent.com/66682399/85657718-fef25000-b6cf-11ea-9d73-7cabac553314.png)
 * block dagram of sar register
