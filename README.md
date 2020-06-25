@@ -37,21 +37,23 @@ The Main idea of this project is that device only manage barrier between analog 
  ![Capture](https://user-images.githubusercontent.com/66682399/84502736-85715f80-acd6-11ea-8932-2f99020d4a88.PNG)
  ![input](https://user-images.githubusercontent.com/66682399/84502772-95893f00-acd6-11ea-9e3e-4a2a8bc297bf.PNG)
  * for sample and hold output is plot v(sample).
- * for  comparator is plot i(ref) vs v(ref).
+
  * for sar registor is plot v(d0),plot v(d1)
- * ![10 bit output](https://user-images.githubusercontent.com/66682399/85657624-e97d2600-b6cf-11ea-8c8e-6c522f788d0f.png)
- 
- ![10 bit sar register](https://user-images.githubusercontent.com/66682399/85657677-f6017e80-b6cf-11ea-9572-f35664651f41.PNG)
- 
-*  ![block diagram](https://user-images.githubusercontent.com/66682399/85657718-fef25000-b6cf-11ea-9d73-7cabac553314.png)
-![10 bit output](https://user-images.githubusercontent.com/66682399/85657624-e97d2600-b6cf-11ea-8c8e-6c522f788d0f.png)
+
 ![10 bit sar register](https://user-images.githubusercontent.com/66682399/85657677-f6017e80-b6cf-11ea-9572-f35664651f41.PNG)
+* 10 bit sar register circuit diagram
 ![block diagram](https://user-images.githubusercontent.com/66682399/85657718-fef25000-b6cf-11ea-9d73-7cabac553314.png)
+* block dagram of sar register
 ![sample  diagram](https://user-images.githubusercontent.com/66682399/85657720-ff8ae680-b6cf-11ea-85af-b274e49ba03d.PNG)
+* sample and hold circuit
 ![sample and hold](https://user-images.githubusercontent.com/66682399/85657725-0154aa00-b6d0-11ea-8390-ff7dc3b8410c.png)
+* sample output
 ![sar clock](https://user-images.githubusercontent.com/66682399/85657734-0580c780-b6d0-11ea-9b1c-548fd80565a2.png)
+* sar clock
 ![sar outputs](https://user-images.githubusercontent.com/66682399/85657740-06b1f480-b6d0-11ea-88f5-9b1186e1bba3.png)
+* sar register d9 to d0 waveforms
 ![sar rst](https://user-images.githubusercontent.com/66682399/85657749-09144e80-b6d0-11ea-8846-8ddfe30e0221.png)
+* sar register rst
 
 
 # contact information
