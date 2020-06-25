@@ -52,7 +52,8 @@ The Main idea of this project is that device only manage barrier between analog 
  * here we use a adc and dac bridges to match analog and digital signals of the circuit .
  * ![adctodac diagram](https://user-images.githubusercontent.com/66682399/85719638-3af7d600-b70d-11ea-8fa6-84d08f8ceadc.PNG)
  * ![adctodacbridge](https://user-images.githubusercontent.com/66682399/85719648-3cc19980-b70d-11ea-8a57-85714fbb8510.PNG)
- * sar register  outpt waveforms 
+ * sar register  outpt waveforms .
+ * ![saroutputs](https://user-images.githubusercontent.com/66682399/85720002-9fb33080-b70d-11ea-80a4-b0c624106ce3.png)
  * <plot v(d0),plot v(d1) ...... plot v(d9)>
  
 
