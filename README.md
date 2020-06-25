@@ -55,6 +55,9 @@ The Main idea of this project is that device only manage barrier between analog 
  * sar register  outpt waveforms .
  * ![saroutputs](https://user-images.githubusercontent.com/66682399/85720002-9fb33080-b70d-11ea-80a4-b0c624106ce3.png)
  * <plot v(d0),plot v(d1) ...... plot v(d9)>
+ * SAMPLE AND HOLD circuit:
+ * to get a netlist file of sample and hold use this command <finaltry.cir.out>.
+ * waveforms like this
  
 
 # contact information
