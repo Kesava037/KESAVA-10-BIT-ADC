@@ -41,6 +41,9 @@ The Main idea of this project is that device only manage barrier between analog 
  * 3.Digital to analog convertor
  * 4.SAR register
  *  SAR REGISTER BLOCK DIAGRAM:
+ * ![10 bit sar register](https://user-images.githubusercontent.com/66682399/85719328-f4a27700-b70c-11ea-9ec4-746ec4bd0890.PNG)
+* ![block diagram](https://user-images.githubusercontent.com/66682399/85719345-f79d6780-b70c-11ea-8773-d6abe836211e.png)
+
  * input waveforms of sar register.
  * ![sar clock](https://user-images.githubusercontent.com/66682399/85718936-9e353880-b70c-11ea-9a78-d6adf3595540.png)
  * ![sar comparator](https://user-images.githubusercontent.com/66682399/85718947-9ffefc00-b70c-11ea-9b30-eb4a15d422ae.png)
