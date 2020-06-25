@@ -58,8 +58,9 @@ The Main idea of this project is that device only manage barrier between analog 
  * SAMPLE AND HOLD circuit:
  * to get a netlist file of sample and hold use this command <finaltry.cir.out>.
  * waveforms like this
- 
-
+ * ![sample  diagram](https://user-images.githubusercontent.com/66682399/85720560-2d8f1b80-b70e-11ea-8580-ecabda78911f.PNG)
+* ![sample input](https://user-images.githubusercontent.com/66682399/85720572-2f58df00-b70e-11ea-916d-b39d5a275016.png)
+* ![sampled output](https://user-images.githubusercontent.com/66682399/85720578-308a0c00-b70e-11ea-8b2f-7f2607b59941.png)
 # contact information
  * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
 * KUNAL GHOSH  di VSD corp.Pvt ltd kunalpghosh@gmail.com
