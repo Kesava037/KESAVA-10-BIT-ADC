@@ -35,6 +35,7 @@ The Main idea of this project is that device only manage barrier between analog 
 * For simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
  * In that we find two plotings 1.normal 2.python ploting to observe the waveforms in all of the given subplots of the given input/output plot..
  * sar adc mainly four blocks .they are
+* ![sar ckt](https://user-images.githubusercontent.com/66682399/85718673-5ca48d80-b70c-11ea-98ae-eec4a09cc1dd.png)
  * 1.sample and hold circuit
  * 2.comparator
  * 3.Digital to analog convertor
