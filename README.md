@@ -34,23 +34,19 @@ The Main idea of this project is that device only manage barrier between analog 
 * ![simulator](https://user-images.githubusercontent.com/66682399/84473998-aff7f400-aca7-11ea-9a3c-7f3eef72e669.PNG)
 * For simulation we have select the simulator, then the simulator runs.after the simulation we get the waveforms.
  * In that we find two plotings 1.normal 2.python ploting to observe the waveforms in all of the given subplots of the given input/output plot..
- ![Capture](https://user-images.githubusercontent.com/66682399/84502736-85715f80-acd6-11ea-8932-2f99020d4a88.PNG)
- * sample output with clock
- ![10 bit sar register](https://user-images.githubusercontent.com/66682399/85657677-f6017e80-b6cf-11ea-9572-f35664651f41.PNG)
-* 10 bit sar register circuit diagram
-![block diagram](https://user-images.githubusercontent.com/66682399/85657718-fef25000-b6cf-11ea-9d73-7cabac553314.png)
-* block dagram of sar register
-![sample  diagram](https://user-images.githubusercontent.com/66682399/85657720-ff8ae680-b6cf-11ea-85af-b274e49ba03d.PNG)
-* sample and hold circuit
-![sample and hold](https://user-images.githubusercontent.com/66682399/85657725-0154aa00-b6d0-11ea-8390-ff7dc3b8410c.png)
-* sample output
-![sar clock](https://user-images.githubusercontent.com/66682399/85657734-0580c780-b6d0-11ea-9b1c-548fd80565a2.png)
-* sar clock
-![sar outputs](https://user-images.githubusercontent.com/66682399/85657740-06b1f480-b6d0-11ea-88f5-9b1186e1bba3.png)
-* sar register d9 to d0 waveforms
-![sar rst](https://user-images.githubusercontent.com/66682399/85657749-09144e80-b6d0-11ea-8846-8ddfe30e0221.png)
-* sar register rst
-
+ * sar adc mainly four blocks .they are
+ * 1.sample and hold circuit
+ * 2.comparator
+ * 3.Digital to analog convertor
+ * 4.SAR register
+ *  SAR REGISTER BLOCK DIAGRAM:
+ * input waveforms of sar register.
+ * to generate this sar register waveforms netlist file <dff,cir.out>
+ * use this commands to get waveforms <plot v(clock)>,<plot v(rst)>,<plot v(comparator)>.
+ * here we adc and dac bridges to match analog and digital signals of the circuit .
+ * sar register  outpt waveforms 
+ * <plot v(d0),plot v(d1) ...... plot v(d9)>
+ 
 
 # contact information
  * NARALASETTY KESAVA KUMAR B.TECH ELECTRONICS AND COMMUNICATION ENGINEERING GAYATRI VIDYA PARISHAD COLLEGE 0F ENGINEERING kesavakumarnaralasetty@gmail.com
