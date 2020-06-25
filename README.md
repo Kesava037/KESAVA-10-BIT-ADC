@@ -42,6 +42,9 @@ The Main idea of this project is that device only manage barrier between analog 
  * 4.SAR register
  *  SAR REGISTER BLOCK DIAGRAM:
  * input waveforms of sar register.
+ * ![sar clock](https://user-images.githubusercontent.com/66682399/85718936-9e353880-b70c-11ea-9a78-d6adf3595540.png)
+ * ![sar comparator](https://user-images.githubusercontent.com/66682399/85718947-9ffefc00-b70c-11ea-9b30-eb4a15d422ae.png)
+* ![sar rst](https://user-images.githubusercontent.com/66682399/85718950-a0979280-b70c-11ea-811d-bbfb83da651c.png)
  * to generate this sar register waveforms netlist file <dff,cir.out>
  * use this commands to get waveforms <plot v(clock)>,<plot v(rst)>,<plot v(comparator)>.
  * here we adc and dac bridges to match analog and digital signals of the circuit .
