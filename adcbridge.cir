@@ -1,0 +1,16 @@
+* C:\Users\kesav\eSim-Workspace\adcbridge\adcbridge.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/25/20 17:12:58
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v1  in GND pulse		
+U3  inout plot_v1		
+U1  in plot_v1		
+U2  in inout adc_bridge_1		
+U4  inout out dac_bridge_1		
+U5  out plot_v1		
+
+.end
